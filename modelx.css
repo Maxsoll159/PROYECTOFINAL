@@ -62,7 +62,10 @@
 .xbotones{
     margin-top: 31vw;
 }
-
+.raslider{
+    
+    background-color: yellow;
+}
 /* hamburguesa */
 .menu-despliegue{
     display: none;
