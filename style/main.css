@@ -7,6 +7,10 @@
   background: black;
 }
 
+.plomo {
+  background-color: #F4F4F4;
+}
+
 .total {
   height: 100vh;
 }
@@ -69,13 +73,13 @@
 }
 
 .p-top {
-  font-size: 26px;
+  font-size: 30px;
   font-weight: bold;
   margin-bottom: 0;
 }
 
 .p-botton {
-  font-size: 13px;
+  font-size: 15px;
   margin-bottom: 0rem;
 }
 
@@ -93,6 +97,11 @@
   font-weight: bold;
   background-color: transparent;
   border-radius: 15px;
+  border: 3px solid white;
+}
+.section1 .bt:hover {
+  color: rgb(7, 7, 7);
+  background-color: rgb(255, 255, 255);
   border: 3px solid white;
 }
 
@@ -118,6 +127,27 @@
   background-size: cover;
 }
 
+.section3 {
+  display: flex;
+  align-items: center;
+}
+.section3 .texto3 {
+  width: 50%;
+  margin: auto;
+}
+.section3 .video1 {
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .section3 {
+    height: auto;
+    padding: 60px 0;
+  }
+  .section3 .texto3 {
+    width: 100%;
+  }
+}
 .section4 video, .section4 img {
   width: 75%;
 }
@@ -166,6 +196,10 @@
   border-radius: 30px;
   border: 3px solid rgb(10, 10, 10);
 }
+.section5 .bt2:hover {
+  color: rgb(255, 255, 255);
+  background-color: black;
+}
 .section5 .ancho2 {
   width: 850px;
 }
@@ -183,6 +217,15 @@
 .section6 li, .section10 li, .section13 li {
   margin: 10px 15px;
 }
+.section6 img, .section10 img, .section13 img {
+  border-radius: 33px;
+}
+.section6 h3, .section10 h3, .section13 h3 {
+  margin-top: 10px;
+}
+.section6 .b-top, .section10 .b-top, .section13 .b-top {
+  border-top: 3px solid black;
+}
 
 .lista {
   list-style: none;
@@ -194,7 +237,7 @@
     margin: auto;
   }
   .section6 .caja7, .section10 .caja7, .section13 .caja7 {
-    margin: 0 !important;
+    margin: 60px 0 0 0 !important;
   }
 }
 .section7 .fondo {
@@ -214,6 +257,10 @@
   background-color: transparent;
   border-radius: 30px;
   border: 3px solid rgb(255, 255, 255);
+}
+.section7 .bt2:hover {
+  color: rgb(5, 5, 5);
+  background-color: rgb(255, 255, 255);
 }
 
 .section9 .fondo, .section11 .fondo {
@@ -235,6 +282,10 @@
   background-color: transparent;
   border-radius: 30px;
   border: 3px solid rgb(10, 10, 10);
+}
+.section9 .bt2:hover, .section11 .bt2:hover {
+  color: rgb(255, 255, 255);
+  background-color: black;
 }
 .section9 .ancho3, .section11 .ancho3 {
   width: 850px;
@@ -270,14 +321,61 @@
     margin: 10px !important;
   }
 }
+.section12 .fondo {
+  width: 100%;
+  background: url("../img/section12_logo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section12 .barra {
+  padding-left: 60px;
+  flex-direction: column;
+}
+.section12 .barra span {
+  display: none;
+}
+
 @media (max-width: 1200px) {
   .section12 {
     height: 100%;
+  }
+  .section12 .largo {
+    width: 100%;
+    margin: auto;
+  }
+  .section12 i {
+    font-size: 30px;
+  }
+  .section12 .barra {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: flex-end;
+  }
+  .section12 .barra div {
+    width: 25%;
+  }
+  .section12 .barra p {
+    display: none;
+  }
+  .section12 .barra span {
+    display: inline;
   }
 }
 .section10 .ancho4, .section13 .ancho4 {
   width: 66%;
   margin: auto;
+}
+.section10 .ancho4 h3, .section13 .ancho4 h3 {
+  font-size: 20px;
+  padding: 15px 0;
+  border-top: 3px solid black;
+}
+.section10 .ancho4 h5, .section13 .ancho4 h5 {
+  font-size: 18px;
+  padding: 15px 0;
+  border-top: 3px solid black;
 }
 .section10 .bt2, .section13 .bt2 {
   width: 180px;
@@ -286,6 +384,10 @@
   background-color: transparent;
   border-radius: 30px;
   border: 3px solid rgb(10, 10, 10);
+}
+.section10 .bt2:hover, .section13 .bt2:hover {
+  color: rgb(255, 255, 255);
+  background-color: black;
 }
 .section10 video, .section13 video {
   width: 100%;
@@ -299,7 +401,8 @@
 }
 @media (max-width: 600px) {
   .section9 .bt2, .section7 .bt2, .section5 .bt2, .section11 .bt2, .section10 .bt2 {
-    width: 100%;
+    width: 96%;
+    margin: auto;
   }
 }
 .section14 .imagen, .section15 .imagen {
@@ -315,6 +418,7 @@
   font-weight: 100;
 }
 .section14 .bt2, .section15 .bt2 {
+  margin: 5px;
   width: 49%;
   color: rgb(253, 253, 253);
   font-weight: 100;
@@ -330,7 +434,7 @@
   margin: auto;
 }
 .section14 h3, .section15 h3 {
-  padding-bottom: 30px;
+  margin: 15px 10px;
 }
 .section14 .textos2, .section15 .textos2 {
   width: 49%;
@@ -357,12 +461,17 @@
   width: 60%;
 }
 .section15 .bt4 {
+  margin: 5px;
   width: 49%;
   color: rgb(7, 7, 7);
   font-weight: 100;
   background-color: transparent;
   border-radius: 30px;
   border: 3px solid rgb(12, 12, 12);
+}
+.section15 .bt4:hover {
+  color: rgb(255, 255, 255);
+  background-color: black;
 }
 .section15 .botones {
   width: 100%;
@@ -407,8 +516,11 @@ footer ul li {
 }
 
 @media (max-width: 600px) {
-  ul {
+  footer ul {
     display: flex;
     flex-direction: column;
+  }
+  footer ul li {
+    text-align: center;
   }
 }/*# sourceMappingURL=main.css.map */
