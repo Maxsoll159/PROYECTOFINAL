@@ -6,19 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="./modelY.css">
 </head>
 <body>
 
-    <div class="banner modely w-100  container-fluid">
-    
-        <div class="nav row align-items-center justify-content-center">
-            <div class="col-2">
+    <div class="banner modely w-100  container-fluid position-relative">
+        <div class="nav row align-items-center justify-content-center flex-wrap ">
+            <div class="col-3">
               <img src="../img/tesla-9-white.svg" width="100" alt="">
             </div>
-            <div class="col-7">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light   ">
+            <div class="col-6 ">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light d-xl-block d-none   ">
                     <div class="container-fluid">         
                       <div class="  margin-x-auto" id="navbarNav">
                         <ul class="navbar-nav ">
@@ -33,62 +32,217 @@
                           </li>
                           <li class="nav-item sombra">
                             <a class="nav-link text-white"  href="#">Model Y</a>
-                          </li>
-                          <li class="nav-item  sombra">
-                            <a class="nav-link text-white" href="#">Solar Roof</a>
-                          </li>
-                          <li class="nav-item  sombra">
-                            <a class="nav-link text-white " href="#">Solar Panels</a>
-                          </li>
-                          
+                          </li>                          
                         </ul>
                       </div>
                     </div>
                   </nav>
             </div>
-            <div class="d-flex  col-2 oculto">
-               <li class="oculto"> <a href=""  class="nav-link text-white  sombra">Shop</a></li>
-                <li class="oculto"><a href=""  class="nav-link text-white sombra" >Acount</a></li>
+            <div class="d-flex  col-3  flex-wrap justify-content-center">
+               <li class=" d-xxl-block d-none"> <a href=""  class="nav-link text-white  sombra">Shop</a></li>
+                <li class=" d-xxl-block d-none"><a href=""  class="nav-link text-white sombra" >Acount</a></li>
                 <li class="menu-responsive" onclick="mostrar(event)" for="toggle-oculto1"><a href=""  class="nav-link text-white sombra" >Menu</a></li>
             </div>
         </div>
        <div class="container text-center  ">
-           <div class="row">
+           <div class="row ">
             <div class="col-12">
                 <h1 class="mt-5 display-4 fw-bold text-white fs-1">Model Y</h1>
             </div >
-            <div class="d-flex col-9 ybotones margin-x-auto">
-                <div class="container">
-                    <div class="row ">
-                      <div class="col-3 text-white">
+            <div class="col-12 position-absolute bottom-0 centrar-positionx">
+                <div class="container mb-4 ">
+                    <div class="row container justify-content-center">
+                      <div class="col-md-2 col-3 text-white">
                         <h2>76 cu ft</h2>
                         <p>Cargo Space</p>
                       </div>
-                      <div class="col-2 text-white">
+                      <div class="col-md-2 col-3 text-white">
                         <h2>330 mi</h2>
                             <p>Range (EPA est.)</p>
                       </div>
-                      <div class="col-3 text-white">
+                      <div class="col-md-2 col-3 text-white">
                         <h2>AWD</h2>
                         <p>Dual Motor</p>
                       </div>
-                      <button type="button" class="boton botonModel3 col-3 mt-3">ORDER NOW</button>
+                      <button type="button" class="boton botonModel3 col-md-2 col-3 mt-3">ORDER NOW</button>
                     </div> 
              </div>
+             <div class="col-12 mb-2">
+              <div class="arrow bounce"></div>
+  
+             </div>
            </div>
-
-           <div class="col-12">
-            <div class="arrow bounce"></div>
-
-           </div>
-
+       </div>  
+     </div>
+  </div>
+  <section class="d-flex flex-wrap ">
+    <figure class="figure col-sm-12 col-xl-8 bg-color-fondo">
+        <img src="../img/safety-model-y-hero.avif" class="figure-img img-fluid rounded" alt="...">
+        
+      </figure>
+    <article class="row  col-sm-12 col-xl-4 px-5">
+      <div class="d-none d-xl-block ">
+        <p class="mt-5 mb-1">Safety</p>
+        <h2 class="fw-bold fs-3">Designed for Safety</h2>
+      </div>
+      <div class="d-lg-block d-xl-none col-lg-4 d-md-none">
+        <p class="mt-5 mb-1">Safety</p>
+        <h2 class="fw-bold fs-3">Designed for Safety</h2>
+        <button class=" btn boton boton-black">ORDER NOW</button>
+      </div>
+      <div class="col-xl-11 col-xxl-12 col-lg-8">
+        <p class="mt-4 lh-sm">Safety is the most important part of every Tesla. We design our vehicles to exceed safety standards.<span class="text-decoration-underline">exceed safety standards.</span></p>
+        <div class="mt-3">
+            <h5 class="fw-bold fs-6 mb-1">5-Star Rating</h5>
+            <p class=" lh-sm">Model Y achieved NHTSA 5-star safety ratings in every category and subcategory.</p>
+        </div>
+        <div class="mt-3">
+            <h5 class="fw-bold fs-6 mb-1">Top Safety Pick+</h5>
+            <p class=" lh-sm">Model Y received the IIHS Top Safety Pick+ award, with top ratings in all crashworthiness and front crash prevention categories.</p>
+        </div>
+      </div>
+        <div class="more  mt-sm-1 d-none d-xl-block">
+            <button class=" btn boton boton-black">ORDER NOW</button>
+        </div>
        
-
+    </article>
+</section>
+<section class="container-fluid p-0 p-xl-5">
+  <div class="container">
+    <div class="row ">
+      <div class="col-3">
+        <h4>Utility</h4>
+        <h3>A Place For Everything</h3>
+        <div class="more  mt-sm-1 ">
+          <button class=" btn boton boton-black">ORDER NOW</button>
        </div>
-
-       
+      </div>
+      <div class="col-8 px-5">
+        <span class="text-decoration-none">
+          Model Y provides maximum versatility—able to carry 7 passengers and their cargo. Each second row seat folds flat independently, creating flexible storage for skis, furniture,
+           luggage and more. The liftgate opens to a low trunk floor that makes loading and unloading easy and quick.
+        </span>
+      </div>
     </div>
   </div>
+  <div class=" mt-5">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide rounded px-0" data-bs-ride="carousel">
+      <div class=" flexbox">
+        <div class="carousel-item active container-fluid m-0 no-transition"  data-bs-interval="3000">
+          <img src="../img/_1D-Utility-B.jpg " class="d-block w-100 rounded tam-height" alt="...">   
+        </div>
+        <div class="carousel-item container m-auto no-transition" data-bs-interval="3000">
+          <img src="../img/Model-Y-Utility-Hero-7-Seat-Desktop-LHD.jpg" class="d-block w-100 rounded tam-height" alt="...">
+        </div>
+    </div>
+    <div class="flexbox mt-4">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active bg-warning" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2" class="bg-warning"></button>
+    </div>
+  </div>
+</section>
+ <section>
+  <div class="section-4 w-100  position-relative">
+    <div class="container col-xl-8  col-12 position-absolute bottom-0 centrar-positionx " >
+      <div class="container row justify-content-center text-white">
+        <div  class="col-3 text-center">
+          <div>2</div>
+          <p class="d-none d-xl-block">Independent motors digitally control torque to the front and rear wheels</p>
+          <p  class="d-block d-xl-none">Independent</p>
+          <p  class="d-block d-xl-none">motors </p>
+        </div>
+        <div class="col-3 text-center">
+          <div class="d-flex justify-content-around align-items-center">
+            <img src="../img/velocimetro.svg" alt="" style="width: 50px;">
+            <h2 class="">3.5 S</h2>
+          </div>
+          <p class="d-none d-xl-block">Quickest acceleration—from zero to 60 mph* in as little as 3.5 seconds</p>
+          <p  class="d-block d-xl-none">O-60 mph*</p>
+        </div>
+        <div class="col-3  text-center">
+          <div>
+            <img src="../img/summer.svg" alt="">
+          </div>
+          <p class="d-none d-xl-block">Capable in rain, snow, mud and off-road with superior traction control</p>
+          <P class="d-block d-xl-none">All-Weather Control</P>
+        </div>
+      </div>
+    </div> 
+  </div>
+  <div class="container my-5">
+    <div class="row ">
+      <div class="col-3">
+        <h4>All-Wheel Drive</h4>
+        <h3>Dual Motor</h3>
+        <div class="more  mt-sm-1 ">
+          <button class=" btn boton boton-black">ORDER NOW</button>
+       </div>
+      </div>
+      <div class="col-8 px-5">
+        <span class="text-decoration-none">
+          Tesla All-Wheel Drive has two ultra-responsive, independent electric motors that digitally control torque to the front and rear wheels—for far better handling, traction and stability control. Model Y is capable in rain, snow, mud and off-road.
+        </span>
+      </div>
+    </div>
+  </div>
+ </section>
+ <!-- secion video -->
+ <section class="row container-fluid px-0 section-size mx-0">
+    <figure class="figure col-md-12 col-xl-9 col-lg-8 img-size mx-0 px-0">
+      <video  class="w-100 h-100 img-cover"  loop="true" muted autoplay controls >
+        <source src="../img/WVNSU3_Range_Desktop.mp4-2000_WJLESL.mp4" type="video/mp4">
+      </video>   
+    </figure>
+    <article class=" col-md-12 col-lg-4 col-xl-3">
+        <p class="mt-5 mb-1">Range</p>
+        <h2 class="fw-bold fs-3">Go Anywhere</h2>
+        <p class="mt-4 lh-sm">Model Y is fully electric, so you never need to visit a gas station again. If you charge overnight at home, you can wake up to a full battery every morning. And when you’re on the road, it’s easy to plug in along the way—at any public station or with the Tesla charging network. We currently have over 30,000 Superchargers worldwide, with six new locations opening every week.</p>
+        <div class="more  mt-sm-1 ">
+            <button class=" btn boton boton-black">ORDER NOW</button>
+        </div>
+    </article>
+</section>
+<!-- seccion map -->
+<section class="section12 section11 section7 total mt-0">
+
+  <div class="d-flex mb-3 fondo">
+  
+      <div class="barra d-flex justify-content-evenly"> 
+          <div>
+              <h3>360ª</h3>
+              <p>Rear, side and forward-facing cameras provide maximum visibility</p><span>Degrees of visibility</span>
+          </div>
+          <div>
+              <h3>250m</h3>
+              <p>Powerful visual processing at up to 250 meters of range</p><span>of Powerful Visual Processing</span>
+          </div>
+          <div>
+              <div class="largo">
+                  <i class="bi bi-camera-fill"></i>
+              </div>
+              <p>Tesla Vision detects nearby cars, helps prevent potential collisions and assists with parking</p><span>Tesla Vision</span>
+          </div>
+      </div>
+
+  </div>
+
+  <div class="caja3 container d-flex justify-content-center row mx-auto"> 
+
+      <div class="caja4 d-flex justify-content-between mt-3">
+          <div class="caja5">
+              <h5>Autopilot</h5>
+              <h2>Future of Driving</h2>
+          </div>
+          <div class="d-flex align-items-center">
+              <p>Autopilot enables your car to steer, accelerate and brake automatically within its lane under your active supervision, assisting with the most burdensome parts of driving. With over-the-air software updates, the latest enhancements are available instantly.</p>
+          </div>
+      </div>
+
+      <div class="">
+          <button class="btn bt2">ORDER NOW</button>
+      </div>
+  </div>
+</section>
   <div class="menu-despliegue">
     <label onclick="cerrar(event)" class="menu-cierre" for="toggle-oculto1">X</i></label>
     <ul class="navbar-nav ">
@@ -110,7 +264,6 @@
       <li class="nav-item  ">
         <a class="nav-link text-white " href="#">Solar Panels</a>
       </li>
-      
     </ul>
   </div>
 

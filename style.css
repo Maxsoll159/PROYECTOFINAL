@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    margin-left: 3%;
+}
+
+.navbar{
+    background-color: transparent !important;
+}
+
+a{
+    text-decoration: none;
+    color: black !important;
+}
+
+li{
+    padding: 0 10px;
+}
+
+li:hover{
+    cursor: pointer;
+    background-color:rgb(128,128,128,0.1) ;
+    
+    border-radius: 15px;
+
+}
+
+.links{
+    margin-right: 2%;
+
+}
+
+.banner{
+    width: 100vw;
+    height: 100vh;
+   
+}
+
+
+.models{
+  background-image: url(../img/M3-Homepage-Desktop-LHD.jpg);
+}
+
+.container h1{
+font-weight: 500;
+
+
+}
+
+.container span{
+    text-decoration: underline;
+}
+
+.boton{
+  border-radius: 10px;
+  box-shadow: 0 0 0 0 transparent;
+  color: #333;
+  font-weight: 600;
+  border: none;
+  padding: 0.4em 4em;
+  transition: box-shadow .5s cubic-bezier(.5, 0, 0, .75);
+
+}
+@media (max-width: 1115px){
+  .boton{
+   
+    padding: 0.4em 1em;
+   
+  
+  }
+}
+.boton1{
+    background:#3A3C41 ;
+    color: white;
+    width: 270px !important;
+    margin-right: 1%;
+
+    
+}
+
+.boton2{
+    background: #f4f4f4;
+    margin-left: 1%;
+    
+
+}
+
+.cbotones{
+    margin-top: 29%;
+  
+}
+/* quite para el model y el botton */
+.arrow
+{
+  position: relative;
+  left: 50%;
+  margin-left:-20px;
+  width: 20px;
+  height: 20px;
+
+  /**
+   * Dark Arrow Down
+   */
+  background-image: url(../img/chevron-down-solid.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+/* estilos del modelo 3 */
+.model3{
+  background-image: url(../img/ultimobaner.jpeg);
+ 
+ 
+}
+
+.botonModel3{
+  background:transparent;
+  margin-left: 1%;
+  border: white solid 2px;
+  color: white;
+  border-radius: 50px;
+  width: 230px;
+  height: 40px;
+  
+
+}
+
+.botonModel3:hover{
+  color: black;
+  background-color: white;
+}
+
+.models:hover{
+    cursor: pointer;
+    background-color:#7a7e85 ;
+    border-radius: 15px;
+}
+
+

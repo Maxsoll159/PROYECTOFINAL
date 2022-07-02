@@ -14,10 +14,11 @@
     margin-left: auto;
     margin-right: auto;
 }
-.ybotones{
-    margin-top: 31vw;
+/* centro el position */
+.centrar-positionx{
+  left: 50%;
+  transform: translatex(-50%);
 }
-
 /* hamburguesa */
 .menu-despliegue{
     display: none;
@@ -56,3 +57,136 @@
     background-color: #d3d3d3;
     color: black;
   }
+
+/* segundo segmento */
+  .bg-color-fondo{
+    background: #f5f2f2;
+  }
+  /* similara  model 3 */
+  .boton-black{
+    color: black;
+    border: 3px solid black;
+}
+
+.boton-black:hover{
+    background-color: black;
+    color: white;
+}
+
+.bg-black-btn{
+    background-color: black;
+    color: white;
+}
+
+/*carrusel */ 
+.flexbox{
+  display: flex;
+  justify-content: center;
+}
+.no-transition{
+  transition: none;
+  float: none;
+}
+.tam-height{
+  height: 36em;
+  object-fit: cover;
+}
+/* ------ */
+/* section 4 */
+.section-4{
+  background: url("../img/AWD_hero@2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+}
+.img-cover{
+  object-position: center;
+  object-fit: cover;
+}
+.img-size{
+  height: 100%;
+}
+.section-size{
+  height: 98vh;
+}
+/* seccion mapa */
+.section7 .fondo {
+  background: url("../img/Autopilot-Hero-Vision-Desktop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75vh;
+}
+.section7 .caja5 {
+  width: 60%;
+}
+.section7 .bt2 {
+  width: 180px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  background-color: transparent;
+  border-radius: 30px;
+  border: 3px solid rgb(255, 255, 255);
+}
+.section7 .bt2:hover {
+  color: rgb(5, 5, 5);
+  background-color: rgb(255, 255, 255);
+}
+.section11 {
+  flex-direction: column;
+  flex-flow: row wrap-reverse;
+}
+.section11 .fondo {
+  width: 100%;
+}
+.section11 .barra {
+  width: 100%;
+  margin: 10px !important;
+}
+.section12 .barra {
+padding-left: 60px;
+flex-direction: column;
+}
+.section12 .barra span {
+display: none;
+}
+@media (max-width:768px){
+  .section-size{
+    height: 80vh;
+  }
+  .img-size{
+    height: 70%;
+  }
+
+}
+@media (max-width: 1200px) {
+.section12 {
+  height: 100%;
+}
+.section12 .largo {
+  width: 100%;
+  margin: auto;
+}
+.section12 i {
+  font-size: 30px;
+}
+.section12 .barra {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: flex-end;
+}
+.section12 .barra div {
+  width: 25%;
+}
+.section12 .barra p {
+  display: none;
+}
+.section12 .barra span {
+  display: inline;
+}
+}
+.total {
+  height: 100vh;
+}
